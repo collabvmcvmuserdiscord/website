@@ -1,0 +1,12 @@
+{
+  "name": "Debian Samba AD DC",
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "hostRequirements": {
+    "storage": "256gb"
+  },
+  "runArgs": [
+    "--init",
+    "--privileged"
+  ],
+  "overrideCommand": false
+}
